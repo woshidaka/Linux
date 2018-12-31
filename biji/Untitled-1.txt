@@ -1,0 +1,11 @@
+
+
+no
+
+en
+conf t
+no ip do lo
+line co 0
+no exec-t
+logg sy
+ho R

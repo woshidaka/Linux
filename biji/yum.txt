@@ -1,0 +1,18 @@
+### yum仓库的使用
+# yum install [软件名]安装软件
+# yum list | grep zsh 列出所有可以安装的软降（通常配合通道符grep使用）
+# yum  reinstall [软件名]软件重新安装
+# yum remove [软件名]软件卸载
+# yum groupinstall [预置环境组名]安装一个预置环境
+# yum group list 列出可安装的预置环境
+# yum check-update 检查是否有可用的软件包更新
+# yum update 更新系统中的一个或多个软件包
+# yum upgrade 更新软件包的同时考虑软件包的取代关系
+# yum clean all 清除yum的缓存
+# yun makecache 更新yum的缓存
+###系统安装完之后必装的一些软件
+# yum -y install vim wget lrzsz unzip bash-completion net-tools bind-utils zip git screen  
+永久性关闭防火墙 #systemctl stop firewalld
+               #systemctl disable firewalld
+关闭selinux    # setenfore 0
+              #sed -i

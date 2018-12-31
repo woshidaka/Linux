@@ -1,0 +1,6 @@
+### iptables与firewalld防火墙
+## 策略与规则链
+# 安装 iptables-services
+# 禁止firewalld的服务systemctl stop firewalld && systemctl disable firewalld
+# 开启firewwalld的服务 systemctl start firewalld && systemctl enable firewalld
+#
